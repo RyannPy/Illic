@@ -5,4 +5,6 @@ class Character:
         self.hp = hp
         self.attack = attack
 
+    def is_alive(self):
+        return self.hp > 0
         

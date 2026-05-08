@@ -1,4 +1,4 @@
-from enemy import Enemy
+from character.enemy.enemy import Enemy
 
 # daftar Enemy(name, hp, class)
-minion = Enemy("Minions", 130, 5)
+minion = Enemy("Minion", 130, 5)
